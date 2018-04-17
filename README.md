@@ -1,6 +1,8 @@
 # AffineTransforms
 ## Installation
 #### IntelliJ Installation:
+[pointConverter-1.0.jar](https://github.com/violas15/AffineTransforms/blob/master/pointConverter-1.0.jar)
+
 Install the pointConverter-1.0.jar using IntelliJ by going to File->Project Structure->Modules->Dependencies and hit the
 green plus to add Jar Dependencies. Then navigate to the pointConverter-1.0.jar.
 Import using
