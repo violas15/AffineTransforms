@@ -13,15 +13,12 @@ derby.log
 *.iml
 *.log
 mydb/
-Edges.csv
-Nodes.csv
 gradle/
 gradlew
 gradlew.bat
 *.log
 *.project
 .project
-*.flac
 
 
 /bin/
