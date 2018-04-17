@@ -14,8 +14,9 @@ Import using
 To install this dependency using gradle, create a folder in the top level of your project file named libs. Inside this 
 folder copy and paste the pointConverter-1.0.jar file.
 The in your build.gradle add the following line in the dependencies section.
-
-     ```java compile fileTree(dir: 'libs', include: '*.jar')```
+```java 
+     compile fileTree(dir: 'libs', include: '*.jar')
+```
      
 This will include all the jar files in the libs folder into your gradle project. We recommend adding the libs folder to
 your github repository so all users will have this API automatically installed. 
