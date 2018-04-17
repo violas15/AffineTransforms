@@ -1,13 +1,13 @@
 # AffineTransforms
-##Installation
-####IntelliJ Installation:
+## Installation
+#### IntelliJ Installation:
 Install the pointConverter-1.0.jar using IntelliJ by going to File->Project Structure->Modules->Dependencies and hit the
 green plus to add Jar Dependencies. Then navigate to the pointConverter-1.0.jar.
 Import using
 
     import pointConverter.TeamD.API.PointConverter;
     
-####Gradle Installation
+#### Gradle Installation
 To install this dependency using gradle, create a folder in the top level of your project file named libs. Inside this 
 folder copy and paste the pointConverter-1.0.jar file.
 The in your build.gradle add the following line in the dependencies section.
@@ -17,9 +17,9 @@ The in your build.gradle add the following line in the dependencies section.
 This will include all the jar files in the libs folder into your gradle project. We recommend adding the libs folder to
 your github repository so all users will have this API automatically installed. 
 
-##Useage
+## Useage
 
-####Using Default Points:
+#### Using Default Points:
     import pointConverter.TeamD.API.PointConverter;
 
     double[] coords3D = PointConverter.convertTo3D(xCoord2D, yCoord2D, floorString)
@@ -34,7 +34,7 @@ Valid floor strings for the default setup are
 * "L2"
 
 
-####Using Custom Points:
+#### Using Custom Points:
 If you are not satisfied with the default coordinates or if you want to change to custom floor strings you
  can add your own transformation.
     
