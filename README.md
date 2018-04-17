@@ -42,7 +42,8 @@ Valid floor strings for the default setup are
 #### Using Custom Points:
 If you are not satisfied with the default coordinates or if you want to change to custom floor strings you
  can add your own transformation.
-    ```java
+ 
+ ```java
      PointConverter.clearTransforms(); // this clears all transforms in the list
      PointConverter.addTransform( String floorID,
                                   double twoDx1, double twoDy1,
@@ -51,7 +52,7 @@ If you are not satisfied with the default coordinates or if you want to change t
                                   double threeDx1, double threeDy1,
                                   double threeDx2, double threeDy2,
                                   double threeDx3, double threeDy3);
-     ```
+ ```
                                 
  This function allows you to add your own transformations with a certain floorID.
  This function accepts a seriers of 6 points, that correspond to the points you want to transform between.
